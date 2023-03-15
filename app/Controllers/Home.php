@@ -1,0 +1,82 @@
+<?php
+
+namespace App\Controllers;
+
+class Home extends BaseController
+{
+    public function index()
+    {
+        $data = [];
+        $data['paths'] = PATH;
+        $data['template'] = TEMPLATE;
+
+        // echo $data['paths'];
+        // echo $data['template'];
+
+
+        echo view('header', $data);
+        echo view('home', $data);
+        echo view('footer', $data);
+
+    }
+
+    public function browse()
+    {
+        $data = [];
+        $data['paths'] = PATH;
+        $data['template'] = TEMPLATE;
+
+        // echo $data['paths'];
+        // echo $data['template'];
+
+
+        echo view('header', $data);
+        echo view('browse', $data);
+        echo view('footer', $data);
+    }
+    
+    public function details()
+    {
+        $data = [];
+        $data['paths'] = PATH;
+        $data['template'] = TEMPLATE;
+
+        // echo $data['paths'];
+        // echo $data['template'];
+
+
+        echo view('header', $data);
+        echo view('details', $data);
+        echo view('footer', $data);
+    }
+
+    public function streams()
+    {
+        $data = [];
+        $data['paths'] = PATH;
+        $data['template'] = TEMPLATE;
+
+        // echo $data['paths'];
+        // echo $data['template'];
+
+
+        echo view('header', $data);
+        echo view('streams', $data);
+        echo view('footer', $data);
+    }
+
+    public function profile()
+    {
+        $data = [];
+        $data['paths'] = PATH;
+        $data['template'] = TEMPLATE;
+
+        // echo $data['paths'];
+        // echo $data['template'];
+
+
+        echo view('header', $data);
+        echo view('profile', $data);
+        echo view('footer', $data);
+    }
+}
