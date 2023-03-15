@@ -13,20 +13,12 @@
     <!-- Bootstrap core CSS -->
     <link href="<?= $template ?>/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="<?= $template ?>/css/fontawesome.css">
     <link rel="stylesheet" href="<?= $template ?>/css/templatemo-cyborg-gaming.css">
     <link rel="stylesheet" href="<?= $template ?>/css/owl.css">
     <link rel="stylesheet" href="<?= $template ?>/css/animate.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-    <!--
-
-TemplateMo 579 Cyborg Gaming
-
-https://templatemo.com/tm-579-cyborg-gaming
-
--->
 </head>
 
 <body>
@@ -51,7 +43,7 @@ https://templatemo.com/tm-579-cyborg-gaming
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="index.html" class="logo">
+                        <a href="<?= $path ?>" class="logo">
                             <img src="<?= $template ?>/images/logo.png" alt="">
                         </a>
                         <!-- ***** Logo End ***** -->
