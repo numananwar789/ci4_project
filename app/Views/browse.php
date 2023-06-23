@@ -121,7 +121,7 @@
                 </li>
                 <li>
                   <img src="<?= $template ?>/images/game-03.jpg" alt="" class="templatemo-item">
-                  <h4>PugG</h4>
+                  <h4>PUBG Mobile</h4>
                   <h6>Battle Royale</h6>
                   <span><i class="fa fa-star" style="color: yellow;"></i> 4.9</span>
                   <span><i class="fa fa-download" style="color: #ec6090;"></i> 2.2M</span>
@@ -174,7 +174,7 @@
               </div>
               <div class="col-lg-12">
                 <div class="main-button">
-                  <a href="http://localhost/activello/profile">Go To Profile</a>
+                  <a href="<?= $path ?>">Go To Profile</a>
                 </div>
               </div>
             </div>

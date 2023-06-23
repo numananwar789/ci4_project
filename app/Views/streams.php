@@ -355,7 +355,7 @@
               </div>
               <div class="col-lg-12">
                 <div class="main-button">
-                  <a href="http://localhost/activello/streams">Load More Streams</a>
+                  <a href="<?= $path ?>">Load More Streams</a>
                 </div>
               </div>
             </div>
